@@ -16,7 +16,7 @@ Better Dialogue-Choices is a quest overhaul project focused on implementing rpg 
 ```pip3 install requests```
 
 **Usage**:
-1. Make a search on Nexus
+1. Make a search on Nexus (any game)
 2. Save the html file (In windows/Chrome: CTRL + S, change dropdown type to "Webpage, HTML only")
 3. Save/move the html file to nexus-to-markdown/input folder. Call it whatever you want.
 4. Open the nexus_to_markdown.py file in Visual Studio Code. 
@@ -30,3 +30,17 @@ Then change the next line to have the output name you want. Eg if you want the f
 8. You should now have a new markdown-formatted list of mods in your output folder to do whatever you want with. Go forth and make lists :) 
 
 You can also try running it with url mode, but Nexus does a lot of the search filtering stuff with javascript, and also requires you to be a logged in premium member to get 80 results per page (and I haven't figured out how to log the script in yet), so tbh the save-html method is cumbersome but easier for now. I don't want to invest too much time in this.
+
+
+## Lucevar's List Helper
+A little autohotkey [https://www.autohotkey.com/](https://www.autohotkey.com/) script I wrote that allows you to copy url, mod name, author, and description to a key combo and then print them out as markdown formatted mod blurbs with one key combo. 
+
+CTRL + NUMPAD1 = url
+CTRL + NUMPAD2 = name
+CTRL + NUMPAD3 = author
+CTRL + NUMPAD4 = description
+
+ALT + \ = print as markdown with name, link, and author
+ALT + z = print as markdown with name, link, author, and description
+
+Workflow: Go to mod page. Highlight url. CTRL + NUM1. Highlight name. CTRL + NUM2. Highlight author. CTRL + NUM3. Highlight desc. CTRL + NUM4. Open text document. ALT + z. Ta-da, markdown!
