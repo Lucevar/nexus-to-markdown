@@ -35,12 +35,12 @@ You can also try running it with url mode, but Nexus does a lot of the search fi
 ## Lucevar's List Helper
 A little autohotkey [https://www.autohotkey.com/](https://www.autohotkey.com/) script I wrote that allows you to copy url, mod name, author, and description to a key combo and then print them out as markdown formatted mod blurbs with one key combo. 
 
-CTRL + NUMPAD1 = url
-CTRL + NUMPAD2 = name
-CTRL + NUMPAD3 = author
-CTRL + NUMPAD4 = description
+CTRL + NUMPAD1 = url  
+CTRL + NUMPAD2 = name  
+CTRL + NUMPAD3 = author  
+CTRL + NUMPAD4 = description  
 
-ALT + \ = print as markdown with name, link, and author
-ALT + z = print as markdown with name, link, author, and description
+ALT + \ = print as markdown with name, link, and author  
+ALT + z = print as markdown with name, link, author, and description  
 
-Workflow: Go to mod page. Highlight url. CTRL + NUM1. Highlight name. CTRL + NUM2. Highlight author. CTRL + NUM3. Highlight desc. CTRL + NUM4. Open text document. ALT + z. Ta-da, markdown!
+Workflow: Go to mod page. Highlight url. CTRL + NUM1. Highlight name. CTRL + NUM2. Highlight author. CTRL + NUM3. Highlight desc. CTRL + NUM4. Open text document. ALT + z. Ta-da, markdown!  
